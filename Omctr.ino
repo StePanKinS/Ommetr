@@ -201,6 +201,7 @@ void count(){
 
     if(Rxi < 0){
       Rx = 0 / 0.0;
+      digitalWrite(3, LOW);
       return;
     }
 
